@@ -1,0 +1,27 @@
+{
+  "name": "萌码",
+  "description": "萌码客户端",
+  "version": "1.0.0",
+  "main": "http://www.mengma.com/volumes",
+  "no-edit-menu": false,
+  "window": {
+    "toolbar": false,
+    "frame": true,
+    "width": 1080,
+    "height": 600,
+    "position": "center",
+    "min_width": 1080,
+    "min_height": 600,
+    "max_width": 8000,
+    "max_height": 8000,
+    "icon": "images/mm.png"
+  },
+  "webkit": {
+    "plugin": true,
+    "page-cache": true
+  },
+  "chromium-args": "--disable-direct-write",
+  "node-remote": "http://*.mengma.com",
+  "node-main": "node.js",
+  "inject-js-start": "app.js"
+}
